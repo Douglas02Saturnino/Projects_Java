@@ -221,11 +221,17 @@ public class Test_01 {
 
 package Triangulo;
 
-//import java.util.Scanner;
+import java.util.Scanner;
 
 public class Test_01 {
 
      public static void main (String[] args) {
+        Scanner sc = new Scanner(System.in);
+
+
+        System.out.print("Quantas pessoas serão digitadas? ");
+        int n = sc.nextInt();
+        System.out.println("Numeros de pessoas: " + n);
 
      }
 }
